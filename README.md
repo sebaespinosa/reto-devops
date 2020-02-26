@@ -55,3 +55,26 @@ Ran all test suites.
 $ node index.js
 Example app listening on port 3000!
 ```
+Podrá acceder a la API localmente en el puerto `3000`.
+
+```bash
+$ curl -s localhost:3000/ | jq
+{
+  "msg": "ApiRest prueba"
+}
+$ curl -s localhost:3000/public | jq
+{
+  "public_token": "12837asd98a7sasd97a9sd7"
+}
+$ curl -s localhost:3000/private | jq
+{
+  "private_token": "TWFudGVuIGxhIENsYW1hIHZhcyBtdXkgYmllbgo="
+}
+```
+## El desafío comienza aquí
+
+Tienes que hacer un **fork** de este repositorio para completar los siguientes desafíos en tu propia cuenta de `gitlab`. **Siéntase libre de resolver el desafío que desees**.
+
+Una vez completado, no olvide devolver la solución.
+
+Si tiene alguna duda, no dude en [abrir un issue](https://gitlab.com/clm-public/reto-devops/issues) para hacer cualquier pregunta sobre cualquier desafío.
