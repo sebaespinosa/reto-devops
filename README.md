@@ -1,13 +1,14 @@
 # Reto-DevOps CLM
 ![CLM Consoltores](./img/clm.png)
+
+Este desafío fue diseñado para buscar tus habilidades DevOps. Este repositorio contiene una aplicación simple en NodeJs.
+
 ## Proceso de Selección
 
 Consta de 3 paso.
   1. Contacto de RRHH con el candidato, para evaluar cultura ....... y entrega de este reto.
   2. Entrevista con equipo técnico para evaluar el reto y conocernos
   3. Entrevista RRHH para oferta laboral.
-
-Este desafío fue diseñado para buscar tus habilidades DevOps. Este repositorio contiene una aplicación simple en NodeJs.
 
 ## La app
 ![NodeJs](./img/nodejs.png)
