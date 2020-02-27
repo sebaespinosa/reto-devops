@@ -84,9 +84,9 @@ $ curl -s localhost:3000/private | jq
 ## El reto comienza aquí
 Tienes que hacer un **fork** de este repositorio para completar los siguientes retos en tu propia cuenta de `gitlab`. **Siéntete libre de resolver el reto que desees.** La cantidad de retos resueltos nos va a permitir valorar tus habilidades y realizar una **oferta en base a las mismas**.
 
-Una vez completado, no olvide notificar la solución **al contacto que indicó RRHH**.
-
-**Tiempo de solucion 3 días**
+1. Una vez completado, no olvide notificar la solución **al contacto que indicó RRHH**.
+2. **La solución debe venir bien documentada, ten en cuenta que vamos a ejecutar la solución que nos envies para realizar la evaluación**
+3. **Tiempo de solución 3 días**
 
 Si tiene alguna duda, adelante, [abre un issue](https://gitlab.com/clm-public/reto-devops/issues) para hacer cualquier pregunta sobre cualquier reto.
 
