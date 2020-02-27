@@ -1,7 +1,7 @@
 # Reto-DevOps CLM
 ![CLM Consoltores](./img/clm.png)
 
-Este desafío fue diseñado para buscar tus habilidades DevOps. Este repositorio contiene una aplicación simple en NodeJs.
+Este desafío fue diseñado para mostrar tus habilidades DevOps. Este repositorio contiene una aplicación simple en NodeJs.
 
 ## Proceso de Selección
 
@@ -82,39 +82,39 @@ $ curl -s localhost:3000/private | jq
 NT: En nuestro equipo consideramos que cada aplicación debe venir bien documentada por parte del desarrollador, para que el equipo de **DevOps** puede realizar los procesos de automatización de una manera mas eficaz.
 
 ## El desafío comienza aquí
-Tienes que hacer un **fork** de este repositorio para completar los siguientes desafíos en tu propia cuenta de `gitlab`. **Siéntase libre de resolver el desafío que desees.** La cantidad de desafios resueltos nos va a permitir valorar tu habilidad y realizar una **oferta en base a las mismas**.
+Tienes que hacer un **fork** de este repositorio para completar los siguientes desafíos en tu propia cuenta de `gitlab`. **Siéntete libre de resolver el desafío que desees.** La cantidad de desafios resueltos nos va a permitir valorar tu habilidad y realizar una **oferta en base a las mismas**.
 
 Una vez completado, no olvide notificar la solución **al contacto que indicó RRHH**.
 
 **Tiempo de solucion 3 dias**
 
-Si tiene alguna duda, no dude en [abrir un issue](https://gitlab.com/clm-public/reto-devops/issues) para hacer cualquier pregunta sobre cualquier desafío.
+Si tiene alguna duda, no dudes en [abrir un issue](https://gitlab.com/clm-public/reto-devops/issues) para hacer cualquier pregunta sobre cualquier desafío.
 
 ### Reto 1. Dockerize la aplicación
 ![docker](./img/nodedoker.jpg)
 
-¿Qué pasa con los contenedores? En este momento *(2020)*, los contenedores son un estándar para implementar aplicaciones *(en la nube o en sistemas locales)*. Entonces, el desafío es:
+¿Qué pasa con los contenedores? En este momento **(2020)**, los contenedores son un estándar para implementar aplicaciones **(en la nube o en sistemas locales)**. Entonces, el desafío es:
 1. Construir la imagen más pequeña que pueda. Escribe un buen Dockerfile :)
 2. Ejecutar la app como un usuario diferente de root.
 
 ### Reto 2. Docker Compose
 ![compose](./img/docker-compose.png)
 
-Una vez que haya dockerizado todos los componentes de la API *(aplicación de NodeJs y base de datos)*, estará listo para crear un archivo docker-compose, en nuestro equipo solemos usarlo para levantar ambientes de desarrollo antes de empezar a escribir los pipeline.
+Una vez que haya dockerizado todos los componentes de la API *(aplicación de NodeJs y base de datos)*, estarás listo para crear un archivo docker-compose, en nuestro equipo solemos usarlo para levantar ambientes de desarrollo antes de empezar a escribir los pipeline.
 
 ### Reto 3. Probar la aplicación en cualquier sistema CI/CD
 ![cicd](./img/cicd.jpg)
 
-Como buen ingeniero devops, conoces las ventajas de ejecutar tareas de forma automatizada. Hay algunos sistemas de cicd que pueden usarse para que esto suceda. Elige uno, travis-ci, gitlab-ci, circleci ... lo que quieras. Danos una tubería exitosa. **Gitlab-ci** es nuestra herramienta de uso diaro por lo cual obtendras puntos extras si usas gitlab.
+Como buen ingeniero devops, conoces las ventajas de ejecutar tareas de forma automatizada. Hay algunos sistemas de cicd que pueden usarse para que esto suceda. Elige uno, travis-ci, gitlab-ci, circleci ... lo que quieras. Danos una tubería exitosa. **Gitlab-ci** es nuestra herramienta de uso diario por lo cual obtendras puntos extras si usas gitlab.
 
 ### Reto 4. Deploy en kubernetes
 ![k8s](./img/k8s.png)
 
-Ya que eres una maquina creando contenedore, ahora queremos ver tu experiencia en k8s. Use un sistema kubernetes para implementar la API. Recomendamos que use herramientas como minikube o microk8s.
+Ya que eres una máquina creando contenedores, ahora queremos ver tu experiencia en k8s. Use un sistema kubernetes para implementar la API. Recomendamos que uses herramientas como minikube o microk8s.
 
 Escriba el archivo de implementación (archivo yaml) utilizalo para implementar su API (aplicación Nodejs - Base de Datos).
 
-* **Ten en cuenta los volumenes de la base de datos**.
+* **Ten en cuenta los volúmenes de la base de datos**.
 
 ### Reto 5. Construir Chart en helm y manejar trafico http(s)
 ![helm](./img/helm-logo-1.jpg)
