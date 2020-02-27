@@ -84,7 +84,9 @@ NT: En nuestro equipo consideramos que cada aplicación debe venir bien document
 ## El desafío comienza aquí
 Tienes que hacer un **fork** de este repositorio para completar los siguientes desafíos en tu propia cuenta de `gitlab`. **Siéntase libre de resolver el desafío que desees.** La cantidad de desafios resueltos nos va a permitir valorar tu habilidad y realizar una **oferta en base a las mismas**.
 
-Una vez completado, no olvide devolver la solución.
+Una vez completado, no olvide notificar la solución **al contacto que indicó RRHH**.
+
+**Tiempo de solucion 3 dias**
 
 Si tiene alguna duda, no dude en [abrir un issue](https://gitlab.com/clm-public/reto-devops/issues) para hacer cualquier pregunta sobre cualquier desafío.
 
