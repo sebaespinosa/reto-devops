@@ -125,12 +125,12 @@ Realmente el pan de cada día es crear, modificar y usar charts de helm. Este re
 2. Asegurar el endpoint /private con auth_basic
 3. Habilitar https y redireccionar todo el trafico 80 --> 443
 
-### Reto 5. Terraform
+### Reto 6. Terraform
 ![docker](./img/tf.png)
 
 En estos días en IaC no se habla de más nada que no sea terraform, en **CLM** ya nos encontramos con pipeline automatizados de Iac. El reto consiste en crear un modulo de terraform que nos permita crear un **rbac.authorization de tipo Role** que solo nos permita ver los pods de nuestro **namespace donde se encuentra al app Nodejs**
 
-### Reto 6. Automatiza el despliegue de los retos realizados
+### Reto 7. Automatiza el despliegue de los retos realizados
 ![docker](./img/make.gif)
 
 Ya que hoy en día no queremos recordar recetas ni comandos, el reto consiste en **automatizar los retos en un Makefile**, considera especificar cuales son las dependencias necesarias para que tu Makefile se ejecute sin problemas.
