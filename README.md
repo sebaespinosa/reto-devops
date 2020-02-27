@@ -115,6 +115,7 @@ Ya que eres una máquina creando contenedores, ahora queremos ver tu experiencia
 Escriba el archivo de implementación (archivo yaml) utilizalo para implementar su API (aplicación Nodejs - Base de Datos).
 
 * **Ten en cuenta los volúmenes de la base de datos**.
+* añade **Horizontal Pod Autoscaler** a la app NodeJs
 
 ### Reto 5. Construir Chart en helm y manejar trafico http(s)
 ![helm](./img/helm-logo-1.jpg)
