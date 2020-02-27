@@ -1,7 +1,7 @@
 # Reto-DevOps CLM
 ![CLM Consoltores](./img/clm.png)
 
-Este desafío fue diseñado para mostrar tus habilidades DevOps. Este repositorio contiene una aplicación simple en NodeJs.
+Este reto fue diseñado para mostrar tus habilidades DevOps. Este repositorio contiene una aplicación simple en NodeJs.
 
 ## Proceso de Selección
 
@@ -81,19 +81,19 @@ $ curl -s localhost:3000/private | jq
 
 **NT:** En nuestro equipo consideramos que cada aplicación debe venir bien documentada por parte del desarrollador para que el equipo de **DevOps** puede realizar los procesos de automatización de una manera mas eficaz.
 
-## El desafío comienza aquí
-Tienes que hacer un **fork** de este repositorio para completar los siguientes desafíos en tu propia cuenta de `gitlab`. **Siéntete libre de resolver el desafío que desees.** La cantidad de desafios resueltos nos va a permitir valorar tu habilidad y realizar una **oferta en base a las mismas**.
+## El reto comienza aquí
+Tienes que hacer un **fork** de este repositorio para completar los siguientes retos en tu propia cuenta de `gitlab`. **Siéntete libre de resolver el reto que desees.** La cantidad de retos resueltos nos va a permitir valorar tu habilidad y realizar una **oferta en base a las mismas**.
 
 Una vez completado, no olvide notificar la solución **al contacto que indicó RRHH**.
 
 **Tiempo de solucion 3 días**
 
-Si tiene alguna duda, adelante, [abre un issue](https://gitlab.com/clm-public/reto-devops/issues) para hacer cualquier pregunta sobre cualquier desafío.
+Si tiene alguna duda, adelante, [abre un issue](https://gitlab.com/clm-public/reto-devops/issues) para hacer cualquier pregunta sobre cualquier reto.
 
 ### Reto 1. Dockerize la aplicación
 ![docker](./img/nodedoker.jpg)
 
-¿Qué pasa con los contenedores? En este momento **(2020)**, los contenedores son un estándar para implementar aplicaciones **(en la nube o en sistemas locales)**. Entonces, el desafío es:
+¿Qué pasa con los contenedores? En este momento **(2020)**, los contenedores son un estándar para implementar aplicaciones **(en la nube o en sistemas locales)**. Entonces, el reto es:
 1. Construir la imagen más pequeña que pueda. Escribe un buen Dockerfile :)
 2. Ejecutar la app como un usuario diferente de root.
 
