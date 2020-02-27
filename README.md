@@ -107,7 +107,7 @@ Como buen ingeniero devops, conoces las ventajas de ejecutar tareas de forma aut
 ### Reto 4. Deploy en kubernetes
 ![k8s](./img/k8s.png)
 
-Ya que eres una maquina creando contenedore, ahora queremos ver tu experiencia en k8s. Use un sistema kubernetes para implementar la API. Le recomendamos que use herramientas como minikube o microk8s.
+Ya que eres una maquina creando contenedore, ahora queremos ver tu experiencia en k8s. Use un sistema kubernetes para implementar la API. Recomendamos que use herramientas como minikube o microk8s.
 
 Escriba el archivo de implementación (archivo yaml) utilizalo para implementar su API (aplicación Nodejs - Base de Datos).
 
