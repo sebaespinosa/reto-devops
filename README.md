@@ -82,7 +82,7 @@ $ curl -s localhost:3000/private | jq
 **NT:** En nuestro equipo consideramos que cada aplicación debe venir bien documentada por parte del desarrollador para que el equipo de **DevOps** puede realizar los procesos de automatización de una manera mas eficaz.
 
 ## El reto comienza aquí
-Tienes que hacer un **fork** de este repositorio para completar los siguientes retos en tu propia cuenta de `gitlab`. **Siéntete libre de resolver el reto que desees.** La cantidad de retos resueltos nos va a permitir valorar tu habilidad y realizar una **oferta en base a las mismas**.
+Tienes que hacer un **fork** de este repositorio para completar los siguientes retos en tu propia cuenta de `gitlab`. **Siéntete libre de resolver el reto que desees.** La cantidad de retos resueltos nos va a permitir valorar tus habilidades y realizar una **oferta en base a las mismas**.
 
 Una vez completado, no olvide notificar la solución **al contacto que indicó RRHH**.
 
@@ -134,6 +134,5 @@ En estos días en IaC no se habla de más nada que no sea terraform, en **CLM** 
 ![docker](./img/make.gif)
 
 Ya que hoy en día no queremos recordar recetas ni comandos, el reto consiste en **automatizar los retos en un Makefile**, considera especificar cuales son las dependencias necesarias para que tu Makefile se ejecute sin problemas.
-
 
 **NT:** Se evaluará el orden en el cual se encuentre el repositorio, en el gran universo de aplicaciones que existe hoy en día el orden es un factor importante.
