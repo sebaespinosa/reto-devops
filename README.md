@@ -100,7 +100,7 @@ Si tiene alguna duda, adelante, [abre un issue](https://gitlab.com/clm-public/re
 ### Reto 2. Docker Compose
 ![compose](./img/docker-compose.png)
 
-Una vez que haya dockerizado todos los componentes de la API *(aplicación de NodeJs y base de datos)*, estarás listo para crear un archivo docker-compose, en nuestro equipo solemos usarlo para levantar ambientes de desarrollo antes de empezar a escribir los pipeline.
+Una vez que haya dockerizado todos los componentes de la API *(aplicación de NodeJs)*, estarás listo para crear un archivo docker-compose, en nuestro equipo solemos usarlo para levantar ambientes de desarrollo antes de empezar a escribir los pipeline.
 
 ### Reto 3. Probar la aplicación en cualquier sistema CI/CD
 ![cicd](./img/cicd.jpg)
@@ -112,9 +112,8 @@ Como buen ingeniero devops, conoces las ventajas de ejecutar tareas de forma aut
 
 Ya que eres una máquina creando contenedores, ahora queremos ver tu experiencia en k8s. Use un sistema kubernetes para implementar la API. Recomendamos que uses herramientas como minikube o microk8s.
 
-Escriba el archivo de implementación (archivo yaml) utilizalo para implementar su API (aplicación Nodejs - Base de Datos).
+Escriba el archivo de implementación (archivo yaml) utilizalo para implementar su API (aplicación Nodejs).
 
-* **Ten en cuenta los volúmenes de la base de datos**.
 * añade **Horizontal Pod Autoscaler** a la app NodeJs
 
 ### Reto 5. Construir Chart en helm y manejar trafico http(s)
