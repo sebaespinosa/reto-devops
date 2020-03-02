@@ -4,11 +4,11 @@
 Este reto fue diseñado para mostrar tus habilidades DevOps. Este repositorio contiene una aplicación simple en NodeJs.
 
 ## Proceso de Selección
-
-Consta de 3 paso.
-  1. Contacto de RRHH con el candidato, para evaluar cultura ....... y entrega de este reto.
-  2. Entrevista con equipo técnico para evaluar el reto y conocernos
-  3. Entrevista RRHH para oferta laboral.
+Bienvenido al desafío CLM, antes de iniciar el reto, por favor atención a los siguientes pasos:
+  1. Te contacta RRHH para conocerte y entender tus expectativas laborales, si estás alineado con nuestra cultura puedes ser parte de este reto inicial.
+    1.1 Una vez completado, no olvide notificar la solución **al contacto que indicó RRHH (jllagno@clmconsultores.com) o + 56 9 91007060.**
+  2. Entrevista con equipo técnico para evaluar el reto y conocer al equipo interno.
+  3. Entrevista RRHH y posteriormente te hacemos una oferta formal vía email.
 
 ## La app
 ![NodeJs](./img/nodejs.png)
@@ -84,7 +84,7 @@ $ curl -s localhost:3000/private | jq
 ## El reto comienza aquí
 Tienes que hacer un **fork** de este repositorio para completar los siguientes retos en tu propia cuenta de `gitlab`. **Siéntete libre de resolver el reto que desees.** La cantidad de retos resueltos nos va a permitir valorar tus habilidades y realizar una **oferta en base a las mismas**.
 
-1. Una vez completado, no olvide notificar la solución **al contacto que indicó RRHH**.
+1. Una vez completado, no olvide notificar la solución al **contacto que indicó RRHH (jllagno@clmconsultores.com) o + 56 9 91007060.**
 2. **La solución debe venir bien documentada, ten en cuenta que vamos a ejecutar la solución que nos envies para realizar la evaluación**
 3. **Tiempo de solución 3 días**
 
