@@ -100,7 +100,11 @@ Si tiene alguna duda, adelante, [abre un issue](https://gitlab.com/clm-public/re
 ### Reto 2. Docker Compose
 ![compose](./img/docker-compose.png)
 
-Una vez que haya dockerizado todos los componentes de la API *(aplicación de NodeJs)*, estarás listo para crear un archivo docker-compose, en nuestro equipo solemos usarlo para levantar ambientes de desarrollo antes de empezar a escribir los pipeline.
+Una vez que haya dockerizado todos los componentes de la API *(aplicación de NodeJs)*, estarás listo para crear un archivo docker-compose, en nuestro equipo solemos usarlo para levantar ambientes de desarrollo antes de empezar a escribir los pipeline. Ya que la aplicación se ejecuta sin ninguna capa para el manejo de protocolo http, añace:
+
+1. Nginx que funcione como proxy reverso a nuesta app Nodejs
+2. Asegurar el endpoint /private con auth_basic
+3. Habilitar https y redireccionar todo el trafico 80 --> 443
 
 ### Reto 3. Probar la aplicación en cualquier sistema CI/CD
 ![cicd](./img/cicd.jpg)
