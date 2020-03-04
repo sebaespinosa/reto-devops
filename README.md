@@ -6,9 +6,10 @@ Este reto fue diseñado para mostrar tus habilidades DevOps. Este repositorio co
 ## Proceso de Selección
 Bienvenido al desafío CLM, antes de iniciar el reto, por favor atención a los siguientes pasos:
   1. Te contacta RRHH para conocerte y entender tus expectativas laborales, si estás alineado con nuestra cultura puedes ser parte de este reto inicial.
-    1.1 Una vez completado, no olvide notificar la solución **al contacto que indicó RRHH (jllagno@clmconsultores.com) o + 56 9 91007060.**
   2. Entrevista con equipo técnico para evaluar el reto y conocer al equipo interno.
   3. Entrevista RRHH y posteriormente te hacemos una oferta formal vía email.
+   
+Una vez completado, no olvide notificar la solución **al contacto que indicó RRHH (jllagno@clmconsultores.com) o + 56 9 91007060.**
 
 ## La app
 ![NodeJs](./img/nodejs.png)
