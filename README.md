@@ -85,7 +85,7 @@ $ curl -s localhost:3000/private | jq
 ## El reto comienza aquí
 Tienes que hacer un **fork** de este repositorio para completar los siguientes retos en tu propia cuenta de `gitlab`. **Siéntete libre de resolver el reto que desees.** La cantidad de retos resueltos nos va a permitir valorar tus habilidades y realizar una **oferta en base a las mismas**.
 
-1. Una vez completado, no olvide notificar la solución al **contacto que indicó RRHH (jllagno@clmconsultores.com) o + 56 9 91007060.**
+1. Una vez completado, no olvide notificar la solución al **contacto que indicó RRHH (rrhh@clmconsultores.com) o + 56 9 4288 5145.**
 2. **La solución debe venir bien documentada, ten en cuenta que vamos a ejecutar la solución que nos envies para realizar la evaluación**
 3. **Tiempo de solución 3 días**
 
