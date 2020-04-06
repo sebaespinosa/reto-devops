@@ -9,7 +9,7 @@ Bienvenido al desafío CLM, antes de iniciar el reto, por favor atención a los 
   2. Entrevista con equipo técnico para evaluar el reto y conocer al equipo interno.
   3. Entrevista RRHH y posteriormente te hacemos una oferta formal vía email.
    
-Una vez completado, no olvide notificar la solución **al contacto que indicó RRHH (jllagno@clmconsultores.com) o + 56 9 91007060.**
+Una vez completado, no olvide notificar la solución **al contacto que indicó RRHH (rrhh@clmconsultores.com) o + 56 9 4288 5145.**
 
 ## La app
 ![NodeJs](./img/nodejs.png)
