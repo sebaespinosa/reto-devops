@@ -12,7 +12,9 @@ Antes de comenzar con el desafío, te recomendamos leer las siguientes instrucci
 
 Una vez completado, no olvide notificar la solución **a Anais De la Puente edelapuente@clmconsultores.com**
 
-Si tienes alguna duda, puedes escribir a Anais De la Puente o enviar un correo a Gestión de Personas rrhh@clmconsultores.com¡Te deseamos mucho éxito!
+Si tienes alguna duda, puedes escribir a Anais De la Puente o enviar un correo a Gestión de Personas rrhh@clmconsultores.com
+
+¡Te deseamos mucho éxito!
 
 ## La app
 ![NodeJs](./img/nodejs.png)
