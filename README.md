@@ -3,13 +3,16 @@
 
 Este reto fue diseñado para mostrar tus habilidades DevOps. Este repositorio contiene una aplicación simple en NodeJs.
 
-## Proceso de Selección
-Bienvenido al desafío CLM, antes de iniciar el reto, por favor atención a los siguientes pasos:
-  1. Te contacta RRHH para conocerte y entender tus expectativas laborales, si estás alineado con nuestra cultura puedes ser parte de este reto inicial.
-  2. Entrevista con equipo técnico para evaluar el reto y conocer al equipo interno.
-  3. Entrevista RRHH y posteriormente te hacemos una oferta formal vía email.
-   
-Una vez completado, no olvide notificar la solución **al contacto que indicó RRHH (rrhh@clmconsultores.com) o + 56 9 4288 5145.**
+¡¡Te damos la bienvenida al desafío de CLM Consultores!! Si estás en este proceso, es porque nos interesa que puedas ser parte de nuestro equipo.
+## Fase del proceso de selección:
+Antes de comenzar con el desafío, te recomendamos leer las siguientes instrucciones:
+  1. Es importante que realices el reto en forma tranquila (tendrás 4 días máximo para poder enviarlo). No te preocupes sino puedes completar todas las fases, para nosotros es importante que realices lo que consideras que tienes experiencia.
+  2. En caso de que cumplas con el perfil técnico del cargo, la segunda fase del proceso de selección es una entrevista técnica, en dónde validaremos tus conocimientos y podrás saber con mayor detalle las funciones asociadas al cargo y sobre el equipo del área.
+  3. Si continúas avanzando con nosotros, el próximo paso es una entrevista Psicolaboral con el área de Gestión de Personas y posteriormente la coordinación del ingreso a la empresa.
+
+Una vez completado, no olvide notificar la solución **a Anais De la Puente edelapuente@clmconsultores.com**
+
+Si tienes alguna duda, puedes escribir a Anais De la Puente o enviar un correo a Gestión de Personas rrhh@clmconsultores.com¡Te deseamos mucho éxito!
 
 ## La app
 ![NodeJs](./img/nodejs.png)
