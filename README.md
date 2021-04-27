@@ -6,13 +6,13 @@ Este reto fue diseñado para mostrar tus habilidades DevOps. Este repositorio co
 ¡¡Te damos la bienvenida al desafío de CLM Consultores!! Si estás en este proceso, es porque nos interesa que puedas ser parte de nuestro equipo.
 ## Fase del proceso de selección:
 Antes de comenzar con el desafío, te recomendamos leer las siguientes instrucciones:
-  1. Es importante que realices el reto en forma tranquila (tendrás 4 días máximo para poder enviarlo). No te preocupes sino puedes completar todas las fases, para nosotros es importante que realices lo que consideras que tienes experiencia.
+  1. Es importante que realices el reto en forma tranquila (tendrás 3 días máximo para poder enviarlo). No te preocupes sino puedes completar todas las fases, para nosotros es importante que realices lo que consideras que tienes experiencia.
   2. En caso de que cumplas con el perfil técnico del cargo, la segunda fase del proceso de selección es una entrevista técnica, en dónde validaremos tus conocimientos y podrás saber con mayor detalle las funciones asociadas al cargo y sobre el equipo del área.
   3. Si continúas avanzando con nosotros, el próximo paso es una entrevista Psicolaboral con el área de Gestión de Personas y posteriormente la coordinación del ingreso a la empresa.
 
-Una vez completado, no olvide notificar la solución **a Anais De la Puente edelapuente@clmconsultores.com**
+Una vez completado, no olvide notificar la solución **a Carla Santiago csantiago@clmconsultores.com**
 
-Si tienes alguna duda, puedes escribir a Anais De la Puente o enviar un correo a Gestión de Personas rrhh@clmconsultores.com
+Si tienes alguna duda, puedes escribir a Carla Santiago o enviar un correo a Gestión de Personas rrhh@clmconsultores.com
 
 ¡Te deseamos mucho éxito!
 
@@ -90,7 +90,7 @@ $ curl -s localhost:3000/private | jq
 ## El reto comienza aquí
 Tienes que hacer un **fork** de este repositorio para completar los siguientes retos en tu propia cuenta de `gitlab`. **Siéntete libre de resolver el reto que desees.** La cantidad de retos resueltos nos va a permitir valorar tus habilidades y realizar una **oferta en base a las mismas**.
 
-1. Una vez completado, no olvide notificar la solución al **contacto que indicó RRHH (rrhh@clmconsultores.com) o + 56 9 4288 5145.**
+1. Una vez completado, no olvide notificar la solución al **Carla Santiago (csantiago@clmconsultores.com).**
 2. **La solución debe venir bien documentada, ten en cuenta que vamos a ejecutar la solución que nos envies para realizar la evaluación**
 3. **Tiempo de solución 3 días**
 
@@ -99,14 +99,14 @@ Si tiene alguna duda, adelante, [abre un issue](https://gitlab.com/clm-public/re
 ### Reto 1. Dockerize la aplicación
 ![docker](./img/nodedoker.jpg)
 
-¿Qué pasa con los contenedores? En este momento **(2020)**, los contenedores son un estándar para implementar aplicaciones **(en la nube o en sistemas locales)**. Entonces, el reto es:
+¿Qué pasa con los contenedores? En este momento **(2021)**, los contenedores son un estándar para implementar aplicaciones **(en la nube o en sistemas locales)**. Entonces, el reto es:
 1. Construir la imagen más pequeña que pueda. Escribe un buen Dockerfile :)
 2. Ejecutar la app como un usuario diferente de root.
 
 ### Reto 2. Docker Compose
 ![compose](./img/docker-compose.png)
 
-Una vez que haya dockerizado todos los componentes de la API *(aplicación de NodeJs)*, estarás listo para crear un archivo docker-compose, en nuestro equipo solemos usarlo para levantar ambientes de desarrollo antes de empezar a escribir los pipeline. Ya que la aplicación se ejecuta sin ninguna capa para el manejo de protocolo http, añace:
+Una vez que haya dockerizado todos los componentes de la API *(aplicación de NodeJS)*, estarás listo para crear un archivo docker-compose, en nuestro equipo solemos usarlo para levantar ambientes de desarrollo antes de empezar a escribir los pipeline. Ya que la aplicación se ejecuta sin ninguna capa para el manejo de protocolo http, añace:
 
 1. Nginx que funcione como proxy reverso a nuesta app Nodejs
 2. Asegurar el endpoint /private con auth_basic
@@ -115,16 +115,16 @@ Una vez que haya dockerizado todos los componentes de la API *(aplicación de No
 ### Reto 3. Probar la aplicación en cualquier sistema CI/CD
 ![cicd](./img/cicd.jpg)
 
-Como buen ingeniero devops, conoces las ventajas de ejecutar tareas de forma automatizada. Hay algunos sistemas de cicd que pueden usarse para que esto suceda. Elige uno, travis-ci, gitlab-ci, circleci ... lo que quieras. Danos una tubería exitosa. **Gitlab-ci** es nuestra herramienta de uso diario por lo cual obtendras puntos extras si usas gitlab.
+Como buen ingeniero devops, conoces las ventajas de ejecutar tareas de forma automatizada. Hay algunos sistemas de cicd que pueden usarse para que esto suceda. Elige uno, travis-ci, gitlab-ci, circleci ... lo que quieras. Danos una tubería exitosa. **Gitlab-CI** es nuestra herramienta de uso diario por lo cual obtendras puntos extras si usas gitlab.
 
 ### Reto 4. Deploy en kubernetes
 ![k8s](./img/k8s.png)
 
-Ya que eres una máquina creando contenedores, ahora queremos ver tu experiencia en k8s. Use un sistema kubernetes para implementar la API. Recomendamos que uses herramientas como minikube o microk8s.
+Ya que eres una máquina creando contenedores, ahora queremos ver tu experiencia en k8s. Use un sistema kubernetes para implementar la API. Recomendamos que uses herramientas como Minikube o Microk8s.
 
 Escriba el archivo de implementación (archivo yaml) utilizalo para implementar su API (aplicación Nodejs).
 
-* añade **Horizontal Pod Autoscaler** a la app NodeJs
+* añade **Horizontal Pod Autoscaler** a la app NodeJS
 
 ### Reto 5. Construir Chart en helm y manejar trafico http(s)
 ![helm](./img/helm-logo-1.jpg)
