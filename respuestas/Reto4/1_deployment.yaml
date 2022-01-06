@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: clm-repo1
+  labels:
+    app: clm-repo1
+spec:
+  replicas: 1
+  revisionHistoryLimit: 0
+  #strategy:
+  #  type: RollingUpdate
+  selector:
+    matchLabels:
+      app: clm-repo1
+  template:
+    metadata:
+      labels:
+        app: clm-repo1
+    spec:
+      containers:
+        - name: caffessousa
+          image: sebawhatif/clm-repo1:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
+          resources:
+            requests:
+              cpu: "250m"
+              memory: "128Mi"

@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+    nodeserver:
+        image: sebawhatif/clm-reto1:latest
+        ports:
+            - "3000:3000"
+    nginx:
+        restart: always
+        image: nginx:latest
+        volumes:
+            - ./reverse_proxy.conf:/etc/nginx/conf.d/default.conf
+            - ./htpasswd:/etc/nginx/.htpasswd
+        ports:
+            - "80:80"

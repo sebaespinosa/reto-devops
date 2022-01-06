@@ -1,0 +1,37 @@
+pipeline {
+    //Define cómo quiero que se ejecute el código a continuación
+    agent {
+        //Jenkins permite usar containers de docker pasando configuración o ejecutar DockerFile para construir tu imagen propia
+        docker {
+            image 'node:17-alpine'
+            args '-p 3000:3000'
+        }
+    }
+    //Acá se defininen las diferentes etapas del proceso
+    stages {
+        //Como Jenkins se encarga de descargar el depa, acá debemos proceder a construirlo usando npm
+        stage('Build') {
+            steps {
+                sh 'npm install'
+            }
+        }
+        //Ejecutamos los Test que ya tiene nuestra App
+        //Simplemente creamos un Script en Bash, llamado test.sh, que lo único que hace es ejecutar nuestra prueba
+        //#!/bin/sh
+        //npm run test
+        stage('Test') {
+            steps {
+                sh './test.sh'
+            }
+        }
+        //Agregamos otra etapa donde hacemos el deployment en caso que las pruebas funcionen correctamente
+        //Simplemente creamos un Script en Bash, llamado start.sh, que lo único que hace es ejecutar nuestra prueba
+        //#!/bin/sh
+        //node index.js
+        stage('Deliver') {
+            steps {
+                sh './start.sh'
+            }
+        }
+    }
+}
