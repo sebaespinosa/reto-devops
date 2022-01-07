@@ -1,7 +1,6 @@
-# Consideraciones
+# Respuestas
 
-1. En la App agregué además nodemon para efectos de facilitar el desarrollo
-   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+A continuación se encuentra la explicación y documentación para cada uno de los retos. En la carpeta "respuestas" se encuentran los archivos para cada uno de los retos.
 
 # Reto 1
 
