@@ -87,4 +87,35 @@
       kubectl watch -n1 get all
       ```
 
-      
+# Reto 5
+
+No complete este reto ya que no tengo conocimientos sobre Helm.
+
+Para monitoreo tengo experiencia trabajando con Zabbix, Prometheus, y Grafana
+
+# Reto 6
+
+**Supuestos y consideraciones**:
+   1. El archivo de configuración de Terraform que entrego es genérico, es decir, no tiene un namespace definido ni nombres especiales para los roles, tratando de ser lo más representativo posible.
+
+**Respuesta**
+   1. En la carpeta respuestas>Reto6 se encuentra el archivo terraformfile.tf que contiene la configuración deseada.
+   2. La primera sección 'resource "kubernetes_role" "solo_ver_pods"' se crea un recurso de terraform del tipo Role de Kubernete, con el nombre "solo_ver_pods" para ejemplificar que es un rol de solo lectura.
+      1. En los atributos se configuran el nombre y otras variables, en particular el atriburo "verbs" donde se indican las actividades que puede realizar el rol, limitando solo a "watch", es decir, solo ver.
+   3. En la segunda sección 'resource "kubernetes_role_binding" "solo_ver_pods_binding"' se crea un binding para poder utilizar el rol definido en el paso anterior.
+   4. Para aplicar el cambio se deben ejecutar los comandos de terraform:
+      ```
+      terraform init
+      terraform plan
+      terraform apply
+      ```
+
+# Reto 7
+
+**Supuestos y consideraciones**:
+   1. No me queda claro del enunciado del problema si se desea que el Makefile automtice todos los retos, por lo que asumiré que solo es para automatizar la puesta en marcha de nuestra App.
+   2. Es la tecnología de la que tengo menor conocimiento y con la cuál me ha tocado trabajar muy poco (en la programación de estos archivos).
+
+**Respuesta**
+   1. En la carpeta respuestas>Reto6 se encuentra el archivo Makefile con la automatización de nuestra App
+   2. Para ejecutar el archivo solo es necesario ingresar al directorio y ejecutar el comando "make"
